@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taxi_bookings_app/splashScreen/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -9,7 +10,7 @@ void main() async {
         theme: ThemeData(
         primarySwatch: Colors.blue,
         ),
-        home: Scaffold(appBar: AppBar(title: Text("Welcome to the Taxi app!")),),
+        home: const MySplashScreen(),
         debugShowCheckedModeBanner: false,
       ),
     ),
